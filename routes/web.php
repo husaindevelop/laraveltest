@@ -19,7 +19,7 @@ use Illuminate\Support\Collection;
 
 Route::any('/', function (Request $request) {
     $url = $request->input('do');
-    return view('home',['url' => $url]);
+    return view('welcome',['url' => $url]);
 });
 Route::any('/requests/', function (Request $request) {
     $url = $request->input('do');
