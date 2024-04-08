@@ -21,8 +21,8 @@ margin:0px;
     
     <body>
     <?php
-use App\Models\ai_images;
-$result = ai_images::latest('updated_at')->first();
+//use App\Models\ai_images;
+//$result = ai_images::latest('updated_at')->first();
 ?>
     <div class="container-fluid" style="width:100%;">
 
